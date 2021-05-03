@@ -1,0 +1,149 @@
+- var page = "index";
+doctype html
+html(lang="vi")
+    head
+        include jades/head
+    body(ontouchstart='')
+        include jades/header.jade
+        main.wrapper
+            section.home
+                .banner
+                    .container
+                        .row.text-center.align-items-center.justify-content-center
+                            .col-sm-12
+                                .content
+                                    .toptext Vận hành trung tâm hiệu quả hơn với Eduspace.vn
+                                    .bottext Không giới hạn thời gian dùng thử
+                                    button.button(type='button')
+                                        a(href='') Đăng ký ngay
+                            .imgs
+                                .row.align-items-center.justify-content-center
+                                    img.bg.img-fluid(src='images/lap.svg' alt='')
+                                    .orbit.left
+                                        img(src='images/EDU.svg' alt='')
+                                    .orbit.right
+                                        img(src='images/SPACE.svg' alt='')
+                .banner2
+                    .container
+                        .row
+                            .col-sm-4
+                                .ea
+                                    .bg
+                                        img(src='images/icon/quanlyhocvien.svg' alt='')
+                                        .toptext Quản lý học viên
+                            .col-sm-4
+                                .ea
+                                    .bg
+                                        img(src='images/icon/quanlykhachang.svg' alt='')
+                                        .toptext CRM - Quản lý khách hàng
+                            .col-sm-4
+                                .ea
+                                    .bg
+                                        img(src='images/icon/quanlytaichinh.svg' alt='')
+                                        .toptext E-learning
+                .info
+                    .container
+                        .row
+                            .col-sm-6
+                                .text
+                                    .toptext Eduspace giúp bạn vận hành trung tâm như thế nào?
+                                    .divider
+                                    .bottext
+                                        | Lorem Ipsum is simply dummy text of the printing and
+                                        br
+                                        |  typesetting industry. Lorem Ipsum has been the industry's
+                                        br
+                                        |  standard dummy text ever since the 1500s
+                            .col-sm-6
+                                .video
+                                    .layer2
+                                    .vid
+                                        video(src='' poster='transparent')
+                                    .layer3.vid_play_btn
+                                        button
+                                            img(src='images/icon/mdi_slow_motion_video.svg' alt='')
+                .review
+                    .container
+                        .row.text-center
+                            .col-sm-12
+                                .layer1
+                                    .toptext Khách hàng nói về Eduspace
+                                    .divider
+                                    .eclipse
+                                .main-carousel
+                                    .carousel-cell
+                                        .row
+                                            .col-sm-6
+                                                .text
+                                                    img(src='images/icon/review1.svg' alt='')
+                                                    .quote
+                                                        | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    .name Delijeh Snyder
+                                                    .job Director of Brand & Content Marketing
+                                                .layer2
+                                                    img.float-left(src='images/icon/quote_big.svg' alt='')
+                                            .col-sm-6
+                                                .text
+                                                    img(src='images/icon/review1.svg' alt='')
+                                                    .quote
+                                                        | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    .name Delijeh Snyder
+                                                    .job Director of Brand & Content Marketing
+                                                .layer2
+                                                    img.float-left(src='images/icon/quote_big.svg' alt='')
+
+
+                                    .carousel-cell
+                                        .row
+                                            .col-sm-6
+                                                .text
+                                                    img(src='images/icon/review1.svg' alt='')
+                                                    .quote
+                                                        | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    .name Delijeh Snyder
+                                                    .job Director of Brand & Content Marketing
+                                                .layer2
+                                                    img.float-left(src='images/icon/quote_big.svg' alt='')
+                                            .col-sm-6
+                                                .text
+                                                    img(src='images/icon/review1.svg' alt='')
+                                                    .quote
+                                                        | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                    .name Delijeh Snyder
+                                                    .job Director of Brand & Content Marketing
+                                                .layer2
+                                                    img.float-left(src='images/icon/quote_big.svg' alt='')
+
+
+                .sponsor
+                    .container
+                        .row.text-center.align-items-center.justify-content-center
+                            .col-sm-9
+                                .headline
+                                    .toptext Hàng trăm khách hàng đang vận hành trung tâm hiệu quả với Eduspace
+                                    .divider
+                        .row.align-items-center.justify-content-center
+                            .col-sm-3
+                                .logo_s
+                                    img.img-fluid(src='images/icon/vietwash.svg' alt='')
+                            .col-sm-3
+                                .logo_s
+                                    img.img-fluid(src='images/icon/thom.svg' alt='')
+                            .col-sm-3
+                                .logo_s
+                                    img.img-fluid(src='images/icon/kombo.svg' alt='')
+                            .col-sm-3
+                                .logo_s
+                                    img.img-fluid(src='images/icon/delta.svg' alt='')
+
+        include jades/footer.jade
+        script(src='js/jquery-3.3.1.min.js')
+        script(src='js/popper.min.js')
+        script(src='js/bootstrap.min.js')
+        script(src='js/flickity.js')
+        script(src='js/index.js')
+
+
+
+
+

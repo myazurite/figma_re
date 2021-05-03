@@ -1,0 +1,32 @@
+.reg_success {
+    margin-top: 7.25rem;
+    margin-bottom: 7.75rem;
+    .content {
+        box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.15);
+        padding: 3rem 4rem;
+    }
+    .text {
+        margin-bottom: 6.9rem;
+        .toptext {
+            font-size: 1.5rem;
+        }
+        .bottext {
+            font-size: $font-xs;
+        }
+    }
+    .link {
+        .row {
+            display: flex;
+        }
+        a {
+            &::before {
+                content: url("/images/icon/chain.svg");
+                display: inline-block;
+                padding-right: 0.5rem;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head
+    body(ontouchstart='')
+        include jades/header.jade
+        main.wrapper
+            .reg_success
+                .container
+                    .col-sm-12.align-items-center.justify-content-center.text-center
+                        .content
+                            img(src='images/grad.svg')
+                            .text
+                                .toptext Chúc mừng bạn đã đăng ký thành công!
+                                .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                            .link
+                                .row.justify-content-center.text-center
+                                    .col-sm-3
+                                        a(href='') Quản lí khách hàng
+                                    .col-sm-3
+                                        a(href='') Quản lí đào tạo
+                                    .col-sm-3
+                                        a(href='') E-learning
+
+    include jades/footer.jade
+    script(src='js/jquery-3.3.1.min.js')
+    script(src='js/popper.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/flickity.js')
+    script(src='js/index.js')

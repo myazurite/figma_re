@@ -1,0 +1,47 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head
+    body(ontouchstart='')
+        include jades/header.jade
+        main.wrapper
+            .intro
+                .introBanner
+                    .container.text-center
+                        .content
+                            .toptext Vận hành trung tâm hiệu quả hơn
+                                br
+                                | với Eduspace.vn
+                            a.button(href='#') Đăng kí ngay
+                .introInfo
+                    .container.justify-content-center.align-items-center.text-center
+                        .about
+                            .toptext Eduscape.vn là gì?
+                            .divider
+                            .bottext Eduspace.vn là hệ thống quản lý hoạt động của trung tâm xoay quanh chủ thể chính là học viên với các chức năng: tiếp nhận học viên, xếp lớp, thu học phí, điểm danh, chuyển lớp (lớp học khác, lớp bảo lưu) và tương tác với phụ huynh qua tin nhắn (miễn phí). Để từ đó đưa ra những báo cáo chính xác về doanh thu, chi phí, nợ ..., đồng thời tiết kiệm thời gian, tránh sai sót trong việc thu chi, chuyển lớp của học viên, tương tác với phụ huynh
+                            img(src='/images/intro.svg' alt='').img-fluid
+                .help
+                    .container.align-items-center.text-center
+                        .toptext Eduspace.vn giúp bạn vận hành trung tâm như thế nào
+                        .divider
+                        img(src='/images/intro_map.svg' alt='').img-fluid
+                .usage
+                    .container
+                        .row
+                            .col-sm-6
+                                .col-sm-11
+                                    .text
+                                        .toptext Trung tâm nào có thể sử dụng Eduspace.vn?
+                                        .divider
+                                        .para
+                                            p Các trung tâm đào tạo có số lượng học viên ngày một đông, gặp nhiều khó khăn thu học phí khi học viên chuyển lớp, bảo lưu
+                                            p Các trung tâm muốn tương tác nhiều hơn với phụ huynh về tình học tập của con. Các trung tâm muốn xây dựng các chương trình học online giúp học viên có thể tự ôn luyện ở nhà
+                                            p Các trung tâm muốn theo dõi lịch dạy cũng như bảng chấm công của các giáo viên
+                            .col-sm-6
+                                img(src='/images/intro_lib.svg' alt='')
+    include jades/footer.jade
+    script(src='js/jquery-3.3.1.min.js')
+    script(src='js/popper.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/flickity.js')
+    script(src='js/index.js')

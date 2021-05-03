@@ -1,0 +1,31 @@
+footer {
+    background: $primary-color;
+    color: $accent-color;
+    .card {
+        background: transparent;
+        border: none;
+    }
+    .card-body {
+        padding: 4rem 0;
+    }
+    .card-title {
+        font-size: $font-sm;
+    }
+    .card-text {
+        font-size: $font-xs;
+        margin-bottom: 0.5rem;
+    }
+    a {
+        color: $accent-color;
+        &:hover {
+            text-decoration: none;
+            color: $button-color;
+        }
+    }
+    .f2 {
+        div {
+            padding: 1.5rem;
+            background: #185482;
+        }
+    }
+}

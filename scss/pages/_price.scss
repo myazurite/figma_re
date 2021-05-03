@@ -1,0 +1,61 @@
+.price {
+    margin-top: 5rem;
+    &Banner {
+        background: linear-gradient(rgba($primary-color, 0.6), rgba($primary-color,0.6)), url("/images/price_bg.svg");
+        background-size: cover;
+        .content {
+            padding: 7rem;
+            .toptext {
+                color: white;
+            }
+        }
+    }
+    .packs {
+        margin: 4rem 0;
+    }
+    .ea {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+        width: 18%;
+        margin-right: 2%;
+        &:last-child {
+            margin-right: 0;
+        }
+        .packsName {
+            color: $accent-color;
+            padding: 0.5rem 0;
+            .fee {
+                font-size: $font-sm;
+            }
+        }
+        .packsPrice {
+            margin: 2rem 0;
+        }
+        .packsDes {
+            .capacity {
+                margin-bottom: 2rem;
+            }
+            .data {
+                margin-bottom: 4rem;
+            }
+        }
+        .button {
+            display: block;
+            padding: 0.8rem 2rem;
+            margin: 1.5rem 1rem;
+            color: $accent-color;
+            @include trans-ease;
+            &:hover {
+                text-decoration: none;
+                background: $button-color;
+            }
+        }
+    }
+    .free {
+        .packsName {
+            background: #3781af;
+        }
+        .button {
+            background: #3781af;
+        }
+    }
+}

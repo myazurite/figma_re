@@ -1,0 +1,83 @@
+.banner {
+    padding: 130px 0 84px 0;
+    background: url('/images/banner_bg.svg') no-repeat;
+    .content {
+        padding: 1rem 0;
+    }
+    .toptext {
+        font-size: $font-lg;
+    }
+    .bottext {
+        font-size: $font-sm;
+    }
+    .button {
+        margin: 2rem 0;
+    }
+    a {
+        display: block;
+        padding: 13px 32px;
+        color: $accent-color;
+        &:hover {
+            color: $accent-color;
+            text-decoration: none;
+        }
+    }
+    .imgs {
+        width: 100%;
+        position: relative;
+    }
+    .orbit {
+        position: absolute;
+        &.left {
+            top: 3rem;
+            left: 2rem;
+        }
+        &.right {
+            bottom: -2rem;
+            right: 2rem;
+        }
+    }
+}
+
+.banner2 {
+    padding-bottom: 3rem;
+    .ea {
+        position: relative;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        @include trans-ease;
+        &::before {
+            content: '';
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-18px);
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            border-bottom: 18px solid $primary-color;
+            opacity: 0;
+            @include trans-ease;
+        }
+        &:hover {
+            background: $primary-color;
+            .toptext {
+                color: $accent-color;
+            }
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+    .bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .toptext {
+        font-size: $font-sm;
+        @include trans-ease
+    }
+}

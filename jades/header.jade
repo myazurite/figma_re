@@ -1,0 +1,25 @@
+
+.nav1
+    nav#mainnav.navbar.navbar-expand-lg.navbar-light.fixed-top
+        .container
+            a.brand(href='index.html')
+                img(src='images/logo.svg' alt='')
+            button.navbar-toggler.navbar-toggler-right(type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul#upmenu.navbar-nav.ml-auto.my-2.my-lg-0
+                    li.nav-item
+                        a.nav-link(href='intro.html') Giới thiệu
+                    li.nav-item
+                        .dropdown
+                            #menu.dropdown-toggle.nav-link(type='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Tính năng
+                            .dropdown-menu(aria-labelledby='menu')
+                                a.dropdown-item(href='#') Action
+                    li.nav-item
+                        a.nav-link(href='plan.html') Cẩm nang
+                    li.nav-item
+                        a.nav-link(href='') Hỗ trợ
+                    li.nav-item
+                        a.nav-link(href='price.html') Phí dịch vụ
+                    li.nav-item.button(type='button')
+                        a.nav-link(href='reg_success.html') Đăng ký
