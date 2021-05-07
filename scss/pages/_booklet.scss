@@ -1,0 +1,141 @@
+.booklet {
+    margin-top: 5rem;
+    .content {
+        padding: 7.5rem;
+        background: linear-gradient(rgba($primary-color, 0.6), rgba($primary-color, 0.6)), url("/images/booklet_bg.svg");
+        .toptext {
+            color: $accent-color;
+            font-size: $font-lg;
+        }
+    }
+    ._1block {
+        display: flex;
+        margin-bottom: 1.5rem;
+    }
+    .article {
+        padding: 5rem 0;
+        .img {
+            margin-right: 1.5rem;
+            background: url("/images/article1.svg");
+            background-size: cover;
+            border: 0;
+            border-radius: 0.25rem;
+        }
+    }
+    .text {
+        a {
+            font-size: $font-sm;
+            color: $primary-color;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .time {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 1.5rem;
+        .slash {
+            padding: 0 1.5rem;
+        }
+        .date::before {
+             content: url("/images/icon/calendar.svg");
+             display: inline-block;
+             margin-right: 0.5rem;
+             transform: translateY(10%);
+         }
+        .cmt::before {
+            content: url("/images/icon/comment.svg");
+            display: inline-block;
+            margin-right: 0.5rem;
+            transform: translateY(10%);
+        }
+    }
+    p {
+        color: #424242;
+    }
+    ._1card {
+        width: 100%;
+        background: url("/images/card1.svg");
+        background-size: cover;
+        padding: 3rem 0;
+        margin-bottom: 1.5rem;
+        .title {
+            width: fit-content;
+            margin: auto;
+            padding: 0.5rem 1.5rem;
+            background: $accent-color;
+            border: 0;
+            border-radius: 0.25rem;
+        }
+        a {
+            font-size: $font-xs;
+            color: $primary-color;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    .R_article {
+        .divider {
+            width: 3rem;
+            height: 0.25rem;
+            margin: 0.5rem 0 1.5rem 0;
+        }
+        ._1article {
+            margin-bottom: 1.5rem;
+            .col-sm-3 {
+                padding: 0!important;
+            }
+            a {
+                font-size: $font-xs;
+            }
+            .date {
+                font-size: $font-xs;
+                &::before {
+                    content: url("/images/icon/calendar.svg");
+                    display: inline-block;
+                    margin-right: 0.5rem;
+                    transform: translateY(10%);
+                }
+            }
+        }
+    }
+    .nav_page {
+        display: flex;
+        justify-content: center;
+        a {
+            color: black;
+            padding: 0.4rem 0.8rem;
+            margin-right: 2rem;
+            border: 1px solid black;
+            border-radius: 50%;
+            &:hover {
+                color: $primary-color;
+                text-decoration: none;
+                border: 1px solid $primary-color;
+            }
+        }
+    }
+    .bookletNav {
+        width: 80%;
+        padding: 1rem;
+        position: absolute;
+        top: 392px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $accent-color;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        border: 0;
+        border-radius: 0.25rem;
+        .cell {
+            width: 20%;
+            a {
+                color: #757575;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

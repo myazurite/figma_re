@@ -11,7 +11,7 @@
         }
     }
     .packs {
-        margin: 4rem 0;
+        margin-top: 4rem;
     }
     .ea {
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
@@ -29,6 +29,13 @@
         }
         .packsPrice {
             margin: 2rem 0;
+            color: $primary-color;
+            font-weight: $regular;
+            .duration {
+                font-style: italic;
+                //color: $primary-color;
+                font-size: $font-xs;
+            }
         }
         .packsDes {
             .capacity {
@@ -50,12 +57,35 @@
             }
         }
     }
-    .free {
-        .packsName {
+    #free {
+        .packsName, .button {
             background: #3781af;
         }
-        .button {
-            background: #3781af;
+    }
+    #small {
+        .packsName, .button {
+            background: #2c74a4;
         }
+    }
+    #plus {
+        .packsName, .button {
+            background: #216493;
+        }
+    }
+    #basic {
+        .packsName, .button {
+            background: #185482;
+        }
+    }
+    #premium {
+        .packsName, .button {
+            background: #0a3963;
+        }
+    }
+    .note {
+        font-size: $font-xs;
+        color: #616161;
+        font-style: italic;
+        margin: 2rem 0 7.75rem 0;
     }
 }

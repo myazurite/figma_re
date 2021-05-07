@@ -1,0 +1,89 @@
+[class^="row"] {
+    margin: 0!important;
+    padding: 0!important;
+}
+#regmod {
+    padding: 0!important;
+    margin: 0;
+    .modal-dialog {
+        max-width: 900px!important;
+    }
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        padding: 0 0.2rem;
+    }
+    .modal-body {
+        padding: 0;
+    }
+    .modal-content {
+        width: 100%;
+        height: 100%;
+    }
+    .mod_bg {
+        padding: 0;
+        background: url("/images/Rectangle 27.svg");
+        background-size: cover;
+        position: relative;
+    }
+    .modal_logo {
+        position: absolute;
+        top: 8rem;
+        left: 140px;
+        z-index: 2;
+    }
+    .bg_layer2 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: rgba(10, 58, 99, 0.5);
+    }
+    .input {
+        padding: 3rem 1rem;
+        .t3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .col-sm-9 {
+            padding: 0;
+        }
+        .col-sm-3 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0;
+        }
+        .col-sm-12 {
+            padding: 0;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin: 1rem 0;
+            color: #616161;
+            font-weight: 400;
+            font-size: $font-xs;
+        }
+        .form-control {
+            font-size: $font-xs;
+            padding-left: 1rem;
+        }
+    }
+    .btn {
+        background: $button-color;
+        &:hover a {
+            text-decoration: none;
+        }
+    }
+    a {
+        color: $accent-color;
+    }
+    &::placeholder {
+        color: #bdbdbd;
+        font-weight: 300;
+    }
+}

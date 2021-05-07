@@ -40,10 +40,14 @@
 }
 
 .banner2 {
+    display: flex;
     padding-bottom: 3rem;
     .ea {
+        width: 33.33%;
+        height: fit-content;
+        text-align: center;
         position: relative;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
         @include trans-ease;
         &::before {
             content: '';
@@ -80,4 +84,47 @@
         font-size: $font-sm;
         @include trans-ease
     }
+}
+.b2 {
+    background: none;
+    padding: 4.5rem;
+    .text, .divider {
+        margin: 1rem auto 3rem auto;
+    }
+    ._1block {
+        padding: 0;
+        .img {
+            width: 3rem;
+            height: 3rem;
+            padding: 1.5rem;
+            background: #FFE3D1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+            border-radius: 0.25rem;
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+        .toptext {
+            font-size: 1rem;
+            margin: 1.5rem 0;
+            font-weight: $normal;
+        }
+        .bottext {
+            font-size: $font-xs;
+            font-weight: $regular;
+        }
+    }
+}
+.banner3 {
+    .toptext {
+        font-size: $font-md;
+    }
+    .bottext, a {
+        font-size: $font-xs;
+    }
+    padding: 5rem 0;
 }

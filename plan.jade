@@ -5,6 +5,7 @@ html(lang="vi")
         include jades/head
     body(ontouchstart='')
         include jades/header.jade
+        include modal
         main.wrapper
             section.plan
                 .planBanner
@@ -15,7 +16,7 @@ html(lang="vi")
                 .planNav
                     .container
                         .row
-                            a(href='#').nav-link Cẩm nang
+                            a(href='booklet.html').nav-link Cẩm nang
                             .arrow
                                 i.fas.fa-chevron-right
                             a(href='#').nav-link Kinh nghiệm hay
