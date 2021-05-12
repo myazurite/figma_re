@@ -1,25 +1,15 @@
 .banner {
-    padding: 130px 0 84px 0;
+    padding: 7rem 0 4rem 0;
     background: url('/images/banner_bg.svg') no-repeat;
-    .content {
-        padding: 1rem 0;
-    }
-    .toptext {
-        font-size: $font-lg;
-    }
+    background-size: 100%, auto;
     .bottext {
-        font-size: $font-sm;
+        margin: 1rem 0 2rem 0;
     }
     .button {
-        margin: 2rem 0;
-    }
-    a {
-        display: block;
         padding: 13px 32px;
-        color: $accent-color;
-        &:hover {
+        margin-bottom: 54px;
+        a {
             color: $accent-color;
-            text-decoration: none;
         }
     }
     .imgs {
@@ -38,17 +28,19 @@
         }
     }
 }
-
-.banner2 {
-    display: flex;
-    padding-bottom: 3rem;
+.bannerSub {
+    width: 100%;
     .ea {
-        width: 33.33%;
-        height: fit-content;
-        text-align: center;
-        position: relative;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
         @include trans-ease;
+        width: 364px;
+        height: 204px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 0.5rem;
         &::before {
             content: '';
             width: 0;
@@ -59,9 +51,13 @@
             transform: translateX(-18px);
             border-left: 18px solid transparent;
             border-right: 18px solid transparent;
-            border-bottom: 18px solid $primary-color;
-            opacity: 0;
+            border-bottom: 18px solid $accent-color;
             @include trans-ease;
+        }
+        .toptext {
+            color: $primary-color;
+            margin-top: 1rem;
+            font-size: $font-sm;
         }
         &:hover {
             background: $primary-color;
@@ -69,62 +65,49 @@
                 color: $accent-color;
             }
             &::before {
-                opacity: 1;
+                border-bottom: 18px solid $primary-color;
             }
         }
-    }
-    .bg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 2rem;
-    }
-    .toptext {
-        font-size: $font-sm;
-        @include trans-ease
     }
 }
-.b2 {
-    background: none;
-    padding: 4.5rem;
-    .text, .divider {
-        margin: 1rem auto 3rem auto;
+
+
+
+
+
+
+@include breakpoint(max-md) {
+    .orbit {
+        display: none;
     }
-    ._1block {
-        padding: 0;
-        .img {
-            width: 3rem;
-            height: 3rem;
-            padding: 1.5rem;
-            background: #FFE3D1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 0;
-            border-radius: 0.25rem;
-            img {
-                width: 1.5rem;
-                height: 1.5rem;
-            }
-        }
+}
+@include breakpoint(xs) {
+    .banner {
         .toptext {
-            font-size: 1rem;
-            margin: 1.5rem 0;
-            font-weight: $normal;
+            font-size: $font-sm;
         }
         .bottext {
             font-size: $font-xs;
-            font-weight: $regular;
         }
     }
 }
-.banner3 {
-    .toptext {
-        font-size: $font-md;
+@include  breakpoint(sm) {
+    .banner {
+        .toptext {
+            font-size: $font-md;
+        }
+        .bottext {
+            font-size: $font-sm;
+        }
     }
-    .bottext, a {
-        font-size: $font-xs;
+}
+@include breakpoint(md) {
+    .banner {
+        .toptext {
+            font-size: $font-lg;
+        }
+        .bottext {
+            font-size: $font-sm;
+        }
     }
-    padding: 5rem 0;
 }

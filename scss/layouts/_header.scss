@@ -1,68 +1,22 @@
 .navbar {
     background: $accent-color;
-    font-family: $font-primary;
-    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+    align-items: baseline;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     #upmenu {
-          align-items: baseline;
-    }
-    .nav-item {
-        margin-left: 3rem;
-    }
-    .nav-link {
-        color: $secondary-color;
-        font-size: $font-xs;
-        font-weight: $normal;
-    }
-    .button {
-        padding: 0.31rem 1.5rem;
+        align-items: baseline;
+        .button {
+            padding: 5px 24px;
+            .nav-link {
+                color: $accent-color;
+                font-size: $font-xs;
+            }
+        }
+        li {
+            margin-left: 3rem;
+        }
         .nav-link {
-            color: $accent-color!important;
-        }
-    }
-}
-.dropdown-menu {
-    top: 3.4rem;
-    transform: translateX(-20%);
-    .feature {
-        min-width: 45rem;
-        padding: 1rem;
-        display: flex;
-        flex-direction: row;
-        .header {
-            color: $primary-color;
-            margin-bottom: 1rem;
-        }
-        #student::before {
-            content: url("/images/icon/university 1.svg");
-            margin-right: 0.5rem;
-        }
-        #customer::before {
-            content: url("/images/icon/team 1.svg");
-            margin-right: 0.5rem;
-        }
-        #elearning::before {
-            content: url("/images/icon/webpage 1.svg");
-            margin-right: 0.5rem;
-        }
-        .column {
-            .card {
-                border: 0;
-                border-radius: 0.25rem;
-                margin-bottom: 1rem;
-                padding: 0.5rem;
-                &:hover {
-                    background: #FBF1DF;
-                }
-            }
-            .card-title {
-                margin-bottom: 0.5rem;
-                color: #424242;
-                font-weight: $normal;
-            }
-            .card-text {
-                color: #757575;
-                font-weight: $regular;
-            }
+            color: #757575;
+            font-size: $font-xs;
         }
     }
 }
