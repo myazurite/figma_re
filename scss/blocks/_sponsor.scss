@@ -1,0 +1,63 @@
+.sponsor {
+  padding: 4rem 0;
+  background: #fafafa;
+  overflow: hidden;
+  .divider {
+    margin: 1rem auto 3rem auto;
+  }
+  .logo {
+    display: grid;
+    overflow-x: auto;
+  }
+  .logo_s {
+    @include flex;
+    background: $accent-color;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    margin: 0 0.5rem;
+    @include border;
+  }
+
+  @include  breakpoint(xs) {
+    .logo {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .toptext {
+      font-size: $font-sm;
+    }
+  }
+  @include  breakpoint(sm) {
+    .container {
+      padding: 0;
+    }
+    .logo {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+      overflow-x: hidden;
+    }
+    .logo_s {
+      width: 100%;
+    }
+    .toptext {
+      font-size: 28px;
+    }
+  }
+  @include breakpoint(md) {
+    .logo {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+      overflow-x: hidden;
+    }
+    .logo_s {
+      width: 100%;
+    }
+  }
+  @include breakpoint(lg) {
+    .logo {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+

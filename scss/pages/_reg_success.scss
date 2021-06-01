@@ -4,10 +4,17 @@
     .content {
         box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.15);
         padding: 3rem 4rem;
+        @include flex;
+        flex-direction: column;
+    }
+    img {
+        width: 140px;
+        height: 140px;
     }
     .text {
         margin-bottom: 6.9rem;
         .toptext {
+            margin: 2rem auto 1.5rem auto;
             font-size: 1.5rem;
         }
         .bottext {
@@ -15,6 +22,7 @@
         }
     }
     .link {
+        width: 100%;
         .row {
             display: flex;
         }

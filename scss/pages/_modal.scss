@@ -31,7 +31,8 @@
     .modal_logo {
         position: absolute;
         top: 8rem;
-        left: 140px;
+        left: 50%;
+        transform: translateX(-50%);
         z-index: 2;
     }
     .bg_layer2 {
@@ -85,5 +86,13 @@
     &::placeholder {
         color: #bdbdbd;
         font-weight: 300;
+    }
+    @include breakpoint(xs) {
+        .t3 {
+            font-size: $font-sm!important;
+        }
+        .mod_bg {
+            display: none;
+        }
     }
 }

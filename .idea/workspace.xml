@@ -3,41 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="18e2905a-834d-4530-85a3-bf483435af5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booklet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booklet.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flickity.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flickity.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/index.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jades/footer.jade" beforeDir="false" afterPath="$PROJECT_DIR$/jades/footer.jade" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jades/header.jade" beforeDir="false" afterPath="$PROJECT_DIR$/jades/header.jade" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modal.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/price.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg_success.jade" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bases/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bases/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bases/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bases/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bases/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bases/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_banner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/_info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_info.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/_review.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_review.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/_sponsor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/_sponsor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layouts/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modules/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_booklet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_booklet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_plan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_plan.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_reg_success.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_reg_success.scss" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,64 +32,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="template-html" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/blocks/_banner.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/bases/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/bases/_typography.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/bases/_mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -126,10 +55,27 @@
       <find>menu</find>
       <find>drop</find>
       <find>divider</find>
+      <find>view</find>
+      <find>margin</find>
+      <find>flex</find>
+      <find>block</find>
+      <find>overflo</find>
+      <find>md</find>
+      <find>.ea</find>
+      <find>padding</find>
+      <find>upme</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,40 +84,40 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/node_modules/brace-expansion/index.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/scss/bases/_variables.scss" />
         <option value="$PROJECT_DIR$/jades/head.jade" />
         <option value="$PROJECT_DIR$/scss/bases/_bases.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/_blocks.scss" />
-        <option value="$PROJECT_DIR$/scss/blocks/_sponsor.scss" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
-        <option value="$PROJECT_DIR$/scss/pages/_plan.scss" />
-        <option value="$PROJECT_DIR$/scss/bases/_mixins.scss" />
-        <option value="$PROJECT_DIR$/scss/pages/_intro.scss" />
         <option value="$PROJECT_DIR$/scss/pages/_reg_success.scss" />
-        <option value="$PROJECT_DIR$/jades/footer.jade" />
-        <option value="$PROJECT_DIR$/scss/layouts/_footer.scss" />
         <option value="$PROJECT_DIR$/scss/pages/_pages.scss" />
         <option value="$PROJECT_DIR$/scss/pages/_modal.scss" />
         <option value="$PROJECT_DIR$/modal.jade" />
-        <option value="$PROJECT_DIR$/plan.jade" />
         <option value="$PROJECT_DIR$/intro.jade" />
         <option value="$PROJECT_DIR$/reg_success.jade" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/scss/pages/_price.scss" />
         <option value="$PROJECT_DIR$/price.jade" />
+        <option value="$PROJECT_DIR$/scss/modules/_buttons.scss" />
+        <option value="$PROJECT_DIR$/scss/bases/_typography.scss" />
+        <option value="$PROJECT_DIR$/scss/pages/_price.scss" />
+        <option value="$PROJECT_DIR$/scss/pages/_intro.scss" />
         <option value="$PROJECT_DIR$/css/flickity.css" />
+        <option value="$PROJECT_DIR$/scss/bases/_common.scss" />
+        <option value="$PROJECT_DIR$/scss/bases/_variables.scss" />
+        <option value="$PROJECT_DIR$/scss/bases/_mixins.scss" />
+        <option value="$PROJECT_DIR$/scss/blocks/_banner.scss" />
+        <option value="$PROJECT_DIR$/scss/blocks/_info.scss" />
+        <option value="$PROJECT_DIR$/scss/blocks/_sponsor.scss" />
+        <option value="$PROJECT_DIR$/index.jade" />
+        <option value="$PROJECT_DIR$/scss/blocks/_review.scss" />
+        <option value="$PROJECT_DIR$/scss/layouts/_header.scss" />
+        <option value="$PROJECT_DIR$/scss/layouts/_footer.scss" />
+        <option value="$PROJECT_DIR$/jades/footer.jade" />
+        <option value="$PROJECT_DIR$/plan.jade" />
+        <option value="$PROJECT_DIR$/scss/pages/_plan.scss" />
+        <option value="$PROJECT_DIR$/jades/header.jade" />
+        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/booklet.jade" />
         <option value="$PROJECT_DIR$/scss/pages/_booklet.scss" />
-        <option value="$PROJECT_DIR$/scss/blocks/_review.scss" />
-        <option value="$PROJECT_DIR$/scss/blocks/_info.scss" />
-        <option value="$PROJECT_DIR$/scss/bases/_common.scss" />
-        <option value="$PROJECT_DIR$/scss/modules/_buttons.scss" />
-        <option value="$PROJECT_DIR$/scss/layouts/_header.scss" />
-        <option value="$PROJECT_DIR$/jades/header.jade" />
-        <option value="$PROJECT_DIR$/scss/bases/_typography.scss" />
-        <option value="$PROJECT_DIR$/index.jade" />
-        <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/scss/blocks/_banner.scss" />
       </list>
     </option>
   </component>
@@ -205,11 +151,6 @@
             <path>
               <item name="figma_re" type="b2602c69:ProjectViewProjectNode" />
               <item name="figma_re" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figma_re" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figma_re" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,7 +175,7 @@
               <item name="figma_re" type="b2602c69:ProjectViewProjectNode" />
               <item name="figma_re" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="figma_re" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +190,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -257,26 +197,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vntrip" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -301,6 +230,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -340,11 +270,21 @@
       <workItem from="1620826031927" duration="355000" />
       <workItem from="1620826789339" duration="65000" />
       <workItem from="1620828500816" duration="9000" />
+      <workItem from="1620829083250" duration="34734000" />
+      <workItem from="1620897581055" duration="4427000" />
+      <workItem from="1620918105963" duration="32000" />
+      <workItem from="1620919299868" duration="30063000" />
+      <workItem from="1620953877827" duration="720000" />
+      <workItem from="1620977224835" duration="678000" />
+      <workItem from="1621010539648" duration="30148000" />
+      <workItem from="1621065507183" duration="735000" />
+      <workItem from="1622568391949" duration="706000" />
+      <workItem from="1622570265405" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109737000" />
+    <option name="totallyTimeSpent" value="148930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,9 +296,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49271846" visible="true" weight="0.16753927" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49271846" visible="true" weight="0.18914647" />
       <window_info id="Structure" order="1" sideWeight="0.50728154" side_tool="true" weight="0.16753927" />
       <window_info id="Gulp" order="2" sideWeight="0.5048544" side_tool="true" weight="0.16753927" />
       <window_info id="npm" order="3" sideWeight="0.5025729" side_tool="true" weight="0.24233358" />
@@ -372,94 +313,21 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298969" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50112194" side_tool="true" weight="0.26632303" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4988781" visible="true" weight="0.26632303" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015806" side_tool="true" weight="0.16303219" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49841937" visible="true" weight="0.16303219" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="458" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
-    <state x="458" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/books.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/captcha.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plan.html" />
-    <entry file="file://$PROJECT_DIR$/scss/pages/_reg_success.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_intro.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/scss/pages/_plan.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="118" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modal.jade" />
-    <entry file="file://$PROJECT_DIR$/scss/pages/_pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intro.jade" />
     <entry file="file://$PROJECT_DIR$/reg_success.jade" />
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/price.jade" />
-    <entry file="file://$PROJECT_DIR$/plan.jade" />
-    <entry file="file://$PROJECT_DIR$/scss/pages/_price.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/flickity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-813">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booklet.jade" />
-    <entry file="file://$PROJECT_DIR$/scss/pages/_booklet.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/icon/24px_phone-call 1.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -490,62 +358,8 @@
     <entry file="file://$PROJECT_DIR$/images/icon/server-refresh 1.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/flickity.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="83" column="17" lean-forward="true" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Vector.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jades/footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="58" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/_sponsor.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/_review.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/_info.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/_blocks.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Vector.svg" />
     <entry file="file://$PROJECT_DIR$/scss/bases/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layouts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/bases/_common.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_buttons.scss">
@@ -572,36 +386,37 @@
     <entry file="file://$PROJECT_DIR$/images/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layouts/_header.scss">
+    <entry file="file://$PROJECT_DIR$/scss/pages/_pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jades/header.jade">
+    <entry file="file://$PROJECT_DIR$/scss/pages/_intro.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_price.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#a#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/grad.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/bases/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/Rectangle 27.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Rectangle 16.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Rectangle 9.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/bases/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,24 +425,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/bases/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/images/image 8.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/bases/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_blocks.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flickity.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/bases/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/_banner.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="3059">
+          <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/flickity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_review.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="70" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_sponsor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/_info.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jades/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_plan.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/bases/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jades/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="102" column="44" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+          <folding>
+            <element signature="n#a#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layouts/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal.jade">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booklet.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_booklet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>

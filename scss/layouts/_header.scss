@@ -1,22 +1,148 @@
 .navbar {
     background: $accent-color;
-    align-items: baseline;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    font-family: $font-primary;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
     #upmenu {
         align-items: baseline;
-        .button {
-            padding: 5px 24px;
-            .nav-link {
-                color: $accent-color;
-                font-size: $font-xs;
-            }
-        }
-        li {
-            margin-left: 3rem;
-        }
+    }
+    .nav-link {
+        color: $secondary-color;
+        font-size: $font-xs;
+        font-weight: $normal;
+    }
+    .button {
+        padding: 0.31rem 1.5rem;
         .nav-link {
-            color: #757575;
-            font-size: $font-xs;
+            color: $accent-color!important;
+        }
+    }
+    @include breakpoint(xs) {
+        .price {
+            display: none;
+        }
+        #navbarResponsive {
+            height: 100vh!important;
+            overflow-y: auto!important;
+        }
+        #upmenu {
+            height: 100%;
+        }
+        .nav-item {
+            width: 100%;
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #9e9e9e;
+        }
+        .button {
+            width: 100%;
+            text-align: center;
+            margin-top: 3rem;
+        }
+    }
+    @include breakpoint(max-sm) {
+        #navbarResponsive {
+            height: 100vh!important;
+            overflow-y: auto!important;
+        }
+        #upmenu {
+            height: 100%;
+        }
+        .nav-item {
+            width: 100%;
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #9e9e9e;
+        }
+        .button {
+            width: 100%;
+            text-align: center;
+            margin-top: 3rem;
+        }
+    }
+    @include breakpoint(md) {
+        .nav-item {
+            margin-left: 1.5rem;
+        }
+    }
+    @include breakpoint(lg) {
+        .nav-item {
+            margin-left: 3rem;
         }
     }
 }
+
+.dropdown-menu {
+    #student::before {
+        content: url("/images/icon/university 1.svg");
+        margin-right: 0.5rem;
+    }
+    #customer::before {
+        content: url("/images/icon/team 1.svg");
+        margin-right: 0.5rem;
+    }
+    #elearn::before {
+        content: url("/images/icon/webpage 1.svg");
+        margin-right: 0.5rem;
+    }
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    ._1column {
+        .header {
+            color: $primary-color;
+            margin-bottom: 1rem;
+        }
+    }
+    ._1block {
+        padding: 0.5rem;
+        @include border;
+        .blockHeader {
+            color: #424242;
+            font-size: $font-xs;
+            font-weight: $normal;
+            margin-bottom: 0.5rem;
+
+        }
+        p {
+            color: #757575;
+            font-size: $font-xs;
+        }
+        &:hover {
+             background: #FBF1DF;
+        }
+    }
+    @include breakpoint(xs) {
+        border: none;
+        .feature {
+            display: contents;
+            ._1block {
+                width: 183px;
+                height: 104px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    @include breakpoint(sm) {
+        border: none;
+        .feature {
+            ._1column {
+                padding-right: 3.5rem;
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+            ._1block {
+                width: 183px;
+                height: 104px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    @include breakpoint(md) {
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 2rem 2rem 0.5rem 2rem;
+        position: absolute;
+        top: 52px;
+        left: -187px;
+    }
+}
+

@@ -1,6 +1,10 @@
 footer {
     background: $primary-color;
     color: $accent-color;
+    .f1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+    }
     .card {
         background: transparent;
         border: none;
@@ -11,21 +15,75 @@ footer {
     .card-title {
         font-size: $font-sm;
     }
+    .col-sm-11 {
+        padding: 0;
+    }
     .card-text {
         font-size: $font-xs;
         margin-bottom: 0.5rem;
-    }
-    a {
-        color: $accent-color;
-        &:hover {
-            text-decoration: none;
-            color: $button-color;
+        @include trans-ease;
+        a {
+            color: $accent-color;
+            &:hover {
+                text-decoration: none;
+                color: $button-color;
+            }
         }
+    }
+    .contact {
+        color: $accent-color;
+    }
+    .social {
+        margin-top: 1rem;
+    }
+    #adress::before {
+        content: url("/images/icon/gps.svg");
+        display: inline-block;
+        width: 1.3rem;
+        margin-right: 0.5rem;
+    }
+    #phone::before {
+        content: url("/images/icon/phone.svg");
+        display: inline-block;
+        width: 1.3rem;
+        margin-right: 0.5rem;
+    }
+    #mail::before {
+        content: url("/images/icon/mail.svg");
+        display: inline-block;
+        width: 1.3rem;
+        margin-right: 0.5rem;
     }
     .f2 {
         div {
             padding: 1.5rem;
             background: #185482;
+        }
+    }
+    @include  breakpoint(max-md) {
+        .f1 {
+            padding: 2rem 0;
+            display: contents;
+            width: 85%;
+        }
+        .card {
+            &:first-child {
+                padding-top: 2rem;
+            }
+            &:last-child {
+                padding-bottom: 2rem;
+            }
+        }
+        .card-body {
+            padding: 1rem 0;
+        }
+        #c2::after, #c3::after, #c4::after {
+            content: url("/images/icon/Vector_up.svg");
+            display: inline-block;
+            margin-left: 22px;
+        }
+        .hidden {
+            display: none;
         }
     }
 }

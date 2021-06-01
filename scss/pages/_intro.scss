@@ -1,70 +1,139 @@
 .intro {
-    margin-top: 5rem;
-    .container {
-        display: flex;
-        flex-direction: column;
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  &Banner {
+    background: linear-gradient(rgba($primary-color, 0.6), rgba($primary-color, 0.6)), url("/images/plan_bg.svg");
+    background-size: cover;
+    background-position: center;
+  }
+  .content {
+    padding: 8rem 0;
+    .toptext {
+      color: $accent-color;
     }
-    &Banner {
-        background: linear-gradient(rgba($primary-color, 0.6), rgba($primary-color, 0.6)), url("/images/plan_bg.svg");
-        background-size: cover;
-        background-position: center;
+    .button {
+      padding: 0.75rem 2rem;
+      margin-top: 3rem;
+      display: inline-block;
     }
+    a {
+      color: $accent-color;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  &Info {
+    background: #e5e5e5;
+    padding: 4rem 0;
+    .bottext {
+      color: $secondary-color;
+    }
+    .about {
+      .divider {
+        margin: 1rem auto 2rem auto;
+      }
+    }
+  }
+  .help {
+    background: #fafafa;
+    padding: 4rem 0;
+    .divider {
+      margin: 1rem auto 4rem auto;
+    }
+  }
+  .usage {
+    padding: 4rem 0 8rem 0;
+    background: #e5e5e5;
+    .left {
+      @include flex;
+      padding: 0;
+    }
+    .right {
+      @include border;
+      padding: 0;
+      background: linear-gradient(rgba($primary-color, 0.3), rgba($primary-color, 0.3));
+    }
+    .para {
+      padding-left: 15px;
+      font-size: $font-xs;
+    }
+    p {
+      margin: 1rem 0;
+      color: $secondary-color;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        border: 0;
+        border-radius: 50%;
+        background: $primary-color;
+        margin: 0 0.625rem 2px -16px;
+      }
+    }
+  }
+  @include breakpoint(xs) {
     .content {
-        padding: 8rem 0;
-        .toptext {
-            color: $accent-color;
-        }
-        .button {
-            padding: 0.75rem 2rem;
-            margin-top: 3rem;
-            display: inline-block;
-        }
-        a {
-            color: $accent-color;
-            &:hover {
-                text-decoration: none;
-            }
-        }
+      padding: 3.5rem 0;
+      .toptext {
+        font-size: $font-sm;
+      }
+    }
+    .map_pc {
+      display: none;
     }
     &Info {
-        background: #e5e5e5;
-        padding: 4rem 0;
-        .about {
-            .divider {
-                margin: 1rem auto 2rem auto;
-            }
-        }
+      .bottext {
+        font-size: 16px;
+      }
     }
-    .help {
-        background: #fafafa;
-        padding: 4rem 0;
-        .divider {
-            margin: 1rem auto 4rem auto;
-        }
+    .help, &Info, .usage {
+      .toptext {
+        font-size: $font-sm;
+      }
+      .divider {
+        margin: 1rem auto 2rem auto;
+      }
     }
     .usage {
-        background: #e5e5e5;
-        padding: 4rem;
-        .toptext {
-            margin: 0;
-        }
-        .divider {
-            margin: 1rem 0 2rem 0;
-        }
-        .para {
-            padding: 0 1rem;
-        }
-        p {
-            margin: 1rem 0;
-            color: $secondary-color;
-            &::before {
-                content: "\2022";
-                color: $primary-color;
-                font-weight: bold;
-                display: inline-block;
-                width: 0.375rem;
-                margin: 0 0.625rem 0 -1rem;
-            }
-        }
+      .divider {
+        margin: 1rem 0 2rem 0;
+      }
+      .right {
+        height: 202px;
+      }
     }
+  }
+  @include  breakpoint(sm) {
+    .content {
+      padding: 8rem 0;
+      .toptext {
+        font-size: $font-lg;
+      }
+    }
+    .map_mobile {
+      display: none;
+    }
+    &Info {
+      .bottext {
+        font-size: $font-sm;
+      }
+    }
+    .help, &Info, .usage {
+      .toptext {
+        font-size: $font-md;
+      }
+    }
+    .usage {
+      .divider {
+        margin: 1rem 0 2rem 0;
+      }
+      .right {
+        height: 351px;
+      }
+    }
+  }
 }

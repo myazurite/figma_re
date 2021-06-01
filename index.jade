@@ -5,6 +5,7 @@ html(lang="vi")
         include jades/head
     body(ontouchstart='')
         include jades/header
+        include modal
         main.wrapper
             .banner
                 .container
@@ -23,17 +24,170 @@ html(lang="vi")
                                 .orbit.right
                                     img(src='images/SPACE.svg' alt='')
             .bannerSub
-                .container.grid
+                .container
                     .ea
-                        img(src='images/icon/quanlyhocvien.svg' alt='')
-                        .toptext Quản lý học viên
+                        .triangle
+                        .inner
+                            img(src='images/icon/quanlyhocvien.svg' alt='')
+                            .toptext Quản lý học viên
                     .ea
-                        img(src='images/icon/quanlyhocvien.svg' alt='')
-                        .toptext Quản lý học viên
+                        .triangle
+                        .inner
+                            img(src='images/icon/quanlyhocvien.svg' alt='')
+                            .toptext Quản lý học viên
                     .ea
-                        img(src='images/icon/quanlyhocvien.svg' alt='')
-                        .toptext Quản lý học viên
-        //include jades/footer
+                        .triangle
+                        .inner
+                            img(src='images/icon/quanlyhocvien.svg' alt='')
+                            .toptext Quản lý học viên
+            .info
+                .container
+                    .row
+                        .col-sm-6.left
+                            .text
+                                .toptext Eduspace giúp bạn vận hành trung tâm như thế nào?
+                                .divider
+                                .col-sm-10.bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        .col-sm-6.right
+                            img(src='/images/Rectangle 9.png')
+                            .layer2
+                                button
+            .review
+                .container
+                    .heading
+                        .toptext Khách hàng nói về Eduspace
+                        .divider
+                    .reviewContent
+                        .eclipse
+                        .layer2
+                            .Slide
+                                .block
+                                    .blockContent.text-center
+                                        img(src='/images/icon/review1.svg')
+                                        .text
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                            .name Delijeh Snyder
+                                            .job Director of Brand & Content Marketing
+                                        .layer2
+                                            img(src='images/icon/quote_big.svg' alt='')
+                                .block
+                                    .blockContent.text-center
+                                        img(src='/images/icon/review2.svg')
+                                        .text
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                            .name Delijeh Snyder
+                                            .job Director of Brand & Content Marketing
+                                        .layer2
+                                            img(src='images/icon/quote_big.svg' alt='')
+                                .block
+                                    .blockContent.text-center
+                                        img(src='/images/icon/review1.svg')
+                                        .text
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                            .name Delijeh Snyder
+                                            .job Director of Brand & Content Marketing
+                                        .layer2
+                                            img(src='images/icon/quote_big.svg' alt='')
+                                .block
+                                    .blockContent.text-center
+                                        img(src='/images/icon/review2.svg')
+                                        .text
+                                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                            .name Delijeh Snyder
+                                            .job Director of Brand & Content Marketing
+                                        .layer2
+                                            img(src='images/icon/quote_big.svg' alt='')
+                            .nextButton
+                                .row
+                                    img(src='/images/icon/Vector_left.svg')
+                                    img(src='/images/icon/Vector_right.svg')
+            .sponsor
+                .container
+                    .row.text-center.align-items-center.justify-content-center
+                        .col-sm-9
+                            .headline
+                                .toptext Hàng trăm khách hàng đang vận hành trung tâm hiệu quả với Eduspace
+                                .divider
+                    .logo
+                        .logo_s
+                            img(src='images/icon/vietwash.svg' alt='')
+                        .logo_s
+                            img(src='images/icon/thom.svg' alt='')
+                        .logo_s
+                            img(src='images/icon/kombo.svg' alt='')
+                        .logo_s
+                            img(src='images/icon/delta.svg' alt='')
+            .info.i2
+                .container
+                    .row
+                        .col-sm-6.right
+                            img(src='/images/Rectangle 9.png')
+                            .layer2
+                                button
+                        .col-sm-6.left
+                            .text
+                                .toptext Dễ dàng tương tác với học viên qua tin nhắn zalo
+                                .divider
+                                .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            .banner.b2
+                .container
+                    .col-sm-7.text-center.text
+                        .toptext Lý do bạn nên sử dụng phần mềm Eduspace
+                        .divider
+                    .content
+                        .row
+                            .col-sm-3._1block
+                                .img
+                                    img(src='images/icon/24px_phone-call 1.svg')
+                                .text
+                                    .toptext Tư vẫn hỗ trợ 24/7
+                                    .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            .col-sm-3._1block
+                                .img
+                                    img(src='images/icon/32px_l-security 1.svg')
+                                .text
+                                    .toptext Bảo mật dữ liệu an toàn
+                                    .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            .col-sm-3._1block
+                                .img
+                                    img(src='images/icon/server-refresh 1.svg')
+                                .text
+                                    .toptext Sản phẩm luôn được cập nhật
+                                    .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            .col-sm-3._1block
+                                .img
+                                    img(src='images/icon/single-neutral-actions-money 1.svg')
+                                .text
+                                    .toptext Chính sách hoàn hủy linh hoạt
+                                    .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            .info.i3
+                .container
+                    .row
+                        .col-sm-6.left
+                            .text
+                                .toptext.t2 Báo chí nói về Eduspace
+                                .divider
+                                .col-sm-10.bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                .ref Xem thêm các báo nói về Eduspace
+                                ul.link
+                                    li
+                                        a(href='') Báo thanh niên nói về Eduspace
+                                    li
+                                        a(href='') Báo dân trí nói về Eduspace
+                        .col-sm-6.right
+                            img(src='/images/Rectangle 9.png')
+                            .layer2
+                                button
+
+            .banner3
+                .container
+                    .row.text-center.align-items-center.justify-content-center
+                        .col-sm-12
+                            .toptext Rút ngắn thời gian quản lý của bạn
+                            .bottext Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            button.button.mt-4
+                                a.btn.text-white(data-toggle="modal" data-target="#regmod") Đăng ký dùng thử miễn phí
+        include jades/footer
         script(src='js/jquery-3.3.1.min.js')
         script(src='js/popper.min.js')
         script(src='js/bootstrap.min.js')

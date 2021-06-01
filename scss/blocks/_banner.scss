@@ -1,5 +1,8 @@
+.wrapper {
+    overflow: hidden;
+}
 .banner {
-    padding: 7rem 0 4rem 0;
+    padding-top: 4rem;
     background: url('/images/banner_bg.svg') no-repeat;
     background-size: 100%, auto;
     .bottext {
@@ -27,62 +30,13 @@
             right: 2rem;
         }
     }
-}
-.bannerSub {
-    width: 100%;
-    .ea {
-        @include trans-ease;
-        width: 364px;
-        height: 204px;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        margin: 0 0.5rem;
-        &::before {
-            content: '';
-            width: 0;
-            height: 0;
-            position: absolute;
-            top: -18px;
-            left: 50%;
-            transform: translateX(-18px);
-            border-left: 18px solid transparent;
-            border-right: 18px solid transparent;
-            border-bottom: 18px solid $accent-color;
-            @include trans-ease;
-        }
-        .toptext {
-            color: $primary-color;
-            margin-top: 1rem;
-            font-size: $font-sm;
-        }
-        &:hover {
-            background: $primary-color;
-            .toptext {
-                color: $accent-color;
-            }
-            &::before {
-                border-bottom: 18px solid $primary-color;
-            }
+    @include breakpoint(max-md) {
+        .orbit {
+            display: none;
         }
     }
-}
-
-
-
-
-
-
-@include breakpoint(max-md) {
-    .orbit {
-        display: none;
-    }
-}
-@include breakpoint(xs) {
-    .banner {
+    @include breakpoint(xs) {
+        padding-top: 8rem;
         .toptext {
             font-size: $font-sm;
         }
@@ -90,9 +44,8 @@
             font-size: $font-xs;
         }
     }
-}
-@include  breakpoint(sm) {
-    .banner {
+    @include  breakpoint(sm) {
+        padding-top: 8rem;
         .toptext {
             font-size: $font-md;
         }
@@ -100,9 +53,7 @@
             font-size: $font-sm;
         }
     }
-}
-@include breakpoint(md) {
-    .banner {
+    @include breakpoint(md) {
         .toptext {
             font-size: $font-lg;
         }
@@ -111,3 +62,146 @@
         }
     }
 }
+.bannerSub {
+    width: 100%;
+    padding: 2rem 0;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: auto;
+        grid-gap: 1rem;
+    }
+    .ea {
+        @include trans-ease;
+        @include border;
+        @include flex;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+        position: relative;
+        margin: 18px 0;
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-18px);
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            border-bottom: 18px solid $primary-color;
+            opacity: 0;
+            @include trans-ease;
+        }
+        .inner {
+            text-align: center;
+            .toptext {
+                color: $primary-color;
+                margin-top: 1rem;
+                font-size: $font-sm;
+            }
+        }
+        &:hover {
+            background: $primary-color;
+            .toptext {
+                color: $accent-color;
+            }
+            .triangle {
+                opacity: 1;
+            }
+        }
+    }
+    @include breakpoint(xs) {
+        .ea {
+            width: 250px;
+            height: 204px;
+        }
+    }
+    @include breakpoint(sm) {
+        .ea {
+            width: 216px;
+            height: 170px;
+            img {
+                width: 70px;
+            }
+        }
+    }
+    @include breakpoint(md) {
+        .ea {
+            width: 300px;
+            height: 204px;
+        }
+    }
+    @include breakpoint(lg) {
+        .ea {
+            width: 350px;
+            height: 204px;
+        }
+    }
+}
+.b2 {
+    background: none;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    .text, .divider {
+        margin: 1rem auto 3rem auto;
+    }
+    ._1block {
+        padding: 0;
+        .img {
+            width: 3rem;
+            height: 3rem;
+            padding: 1.5rem;
+            background: #FFE3D1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+            border-radius: 0.25rem;
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+        .toptext {
+            font-size: 1rem;
+            margin: 1.5rem 0;
+            font-weight: $normal;
+        }
+        .bottext {
+            font-size: $font-xs;
+            font-weight: $regular;
+        }
+    }
+    @include breakpoint(xs) {
+        display: none;
+    }
+    @include breakpoint(lg) {
+        ._1block {
+            padding: 0 0.5rem;
+        }
+    }
+}
+.banner3 {
+    .toptext {
+        font-size: $font-md;
+    }
+    .bottext, a {
+        font-size: $font-xs;
+    }
+    .bottext {
+        margin: 1.5rem 0 1rem 0;
+    }
+    padding: 5rem 0;
+    @include breakpoint(xs) {
+        display: none;
+    }
+}
+
+
+
+
+

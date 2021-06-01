@@ -1,2 +1,141 @@
+.info {
+  padding: 4.5rem 0;
+  background: #fafafa;
+  .left {
+    @include flex;
+    .text {
+      .divider {
+        margin: 1rem 0 2rem 0;
+      }
+      .bottext {
+        padding: 0;
+      }
+    }
+  }
+  .right {
+    padding: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    img {
+      @include border;
+      width: 100%;
+      height: 100%;
+    }
+    position: relative;
+    &::before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: $primary-color;
+      opacity: 0.6;
+      @include border
+    }
+  }
+  .layer2 {
+    @include flex;
+    button {
+      width: 4rem;
+      height: 4rem;
+      background: url("/images/icon/mdi_slow_motion_video.svg");
+      background-size: cover;
+      border: none;
+    }
+  }
+  @include  breakpoint(xs) {
+    .left {
+      padding: 0;
+    }
+    .text {
+      transform: translateY(-2%);
+    }
+    .toptext {
+      font-size: $font-sm;
+    }
+    .bottext {
+      font-size: $font-xs;
+    }
+    .divider {
+      margin: 1rem 0!important;
+    }
+      .layer2 {
+        button {
+          width: 53px;
+          height: 53px;
+        }
+      }
+  }
+  @include breakpoint(sm) {
+    .toptext {
+      font-size: 24px;
+    }
+    .bottext {
+      font-size: 13px;
+    }
+  }
+  @include breakpoint(md) {
+    .text {
+      transform: translateY(-7%);
+    }
+    .toptext {
+      font-size: 25px;
+    }
+  }
+  @include breakpoint(lg) {
+    .toptext {
+      font-size: $font-md;
+    }
+  }
+}
+
+.i2 {
+  background: none;
+  @include  breakpoint(xs) {
+    padding: 3rem 0;
+    .text {
+      margin: 1.5rem 0 0 1rem;
+    }
+  }
+  @include  breakpoint(md) {
+    .left {
+      padding-left: 3rem;
+      .bottext {
+        width: 80%;
+      }
+    }
+  }
+}
+
+.i3 {
+  .left {
+    padding-left: 0;
+  }
+  .ref {
+    margin: 1rem 0;
+    font-weight: $normal;
+  }
+  a {
+    margin: 0.5rem 0;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 0.5rem;
+      height: 0.5rem;
+      border: 0;
+      border-radius: 50%;
+      background: #c4c4c4;
+      margin-right: 1rem;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  @include  breakpoint(xs) {
+    display: none;
+  }
+}
+
 
 

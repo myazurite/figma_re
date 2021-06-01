@@ -1,0 +1,133 @@
+.review {
+  .heading {
+    .toptext {
+      text-align: center;
+    }
+    .divider {
+      margin: 1rem auto;
+    }
+  }
+  &Content {
+    position: relative;
+    .eclipse {
+      width: 426px;
+      height: 426px;
+      border: 0;
+      border-radius: 50%;
+      background: #E2EFF4;
+      margin: auto;
+    }
+    .layer2 {
+      @include flex;
+      flex-wrap: wrap;
+    }
+    .Slide {
+      padding: 0;
+      width: 85%;
+      height: fit-content;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+      overflow-x: auto;
+      overflow-y: hidden;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .block {
+      @include border;
+      width: 460px;
+      height: 318px;
+      background: $primary-color;
+      position: relative;
+      margin: 20px 0;
+      .layer2 {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        top: 0;
+        left: 0;
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      .text {
+        font-size: 1rem;
+        color: $accent-color;
+        p {
+          margin: 2rem 0 1rem 0;
+        }
+        .job {
+          font-size: $font-xs;
+        }
+        position: relative;
+        &::before {
+          content: '“';
+          position: absolute;
+          top: -4rem;
+          left: 0;
+          font-size: 4rem;
+          font-family: 'Rokkitt', serif;
+        }
+      }
+    }
+  }
+
+
+  @include  breakpoint(xs) {
+    padding-top: 3rem;
+    .eclipse {
+      background: none;
+    }
+    .toptext {
+      font-size: $font-sm;
+    }
+    .Slide {
+      width: 100%;
+      grid-template-columns: repeat(4, minmax(100%, 1fr) );
+
+    }
+    .layer2 {
+      height: 80%;
+    }
+    .block {
+      width: 100%;
+      height: 100%;
+      max-height: 370px;
+      padding: 1.5rem 2rem 0 2rem;
+      overflow-y: auto;
+    }
+    .nextButton {
+      width: 100%;
+      margin-top: 1rem;
+      .row {
+        float: right;
+      }
+      img {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+  @include breakpoint(sm) {
+    .nextButton {
+      position: absolute;
+      bottom: 30px;
+      right: 100px;
+      img {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+  @include breakpoint(md) {
+    padding: 4rem 0;
+    .toptext {
+      font-size: $font-md;
+    }
+    .block {
+      padding: 1.5rem 2rem;
+    }
+  }
+}

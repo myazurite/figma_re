@@ -56,14 +56,50 @@
         #navbarResponsive.collapse.navbar-collapse
             ul#upmenu.navbar-nav.ml-auto.my-2.my-lg-0
                 li.nav-item
-                    a.nav-link(href='') Giới thiệu
+                    a.nav-link(href='intro.html') Giới thiệu
                 li.nav-item
-                    a.nav-link(href='') Tính năng
+                    .dropdown
+                        #menu.dropdown-toggle.nav-link(type='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Tính năng
+                        .dropdown-menu(aria-labelledby='menu')
+                            .feature
+                                ._1column
+                                    .header#student Quản lí học viên
+                                    ._1block
+                                        .blockHeader Quản lí học viên 1
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    ._1block
+                                        .blockHeader Quản lí học viên 2
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    ._1block
+                                        .blockHeader Quản lí học viên 3
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                ._1column
+                                    .header#customer Quản lí khách hàng
+                                    ._1block
+                                        .blockHeader Quản lí nhân viên 1
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    ._1block
+                                        .blockHeader Quản lí nhân viên 2
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    ._1block
+                                        .blockHeader Quản lí nhân viên 3
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                ._1column
+                                    .header#elearn E-learning
+                                    ._1block
+                                        .blockHeader Quản lí tài chính 1
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    ._1block
+                                        .blockHeader Quản lí tài chính 2
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    ._1block
+                                        .blockHeader Quản lí tài chính 3
+                                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 li.nav-item
-                    a.nav-link(href='') Cẩm nang
+                    a.nav-link(href='booklet.html') Cẩm nang
                 li.nav-item
                     a.nav-link(href='') Hỗ trợ
-                li.nav-item
-                    a.nav-link(href='') Phí dịch vụ
+                li.nav-item.price
+                    a.nav-link(href='price.html') Phí dịch vụ
                 li.nav-item.button(type='button' data-toggle="modal" data-target="#regmod")
                     a.nav-link Đăng ký

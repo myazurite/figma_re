@@ -1,0 +1,87 @@
+
+doctype html
+html(lang="vi")
+    head
+        include jades/head
+    body(ontouchstart='')
+        include jades/header.jade
+        include modal
+        main.wrapper
+            .price
+                .priceBanner
+                    .container
+                        .col-sm-12.text-center
+                            .content
+                                .toptext Phí dịch vụ
+                .packs
+                    .container
+                        .row
+                            .ea#free
+                                .packsName.text-center
+                                    div Gói
+                                    .fee FREE
+                                .packsContent.text-center
+                                    .packsPrice
+                                        div Miễn phí
+                                        .duration (Không giới hạn)
+                                    .packsDes
+                                        .capacity Số lượng học viên: 30
+                                        .data Dung lượng: 0 GB
+                                    a.button(href='#') Đăng kí ngay
+                            .ea#small
+                                .packsName.text-center
+                                    div Gói
+                                    .fee SMALL
+                                .packsContent.text-center
+                                    .packsPrice
+                                        div 350.000đ / 1 tháng
+                                        .duration (Thanh toán theo năm)
+                                    .packsDes
+                                        .capacity Số lượng học viên: dưới 100
+                                        .data Dung lượng: 0 GB
+                                    a.button(href='#') Đăng kí ngay
+                            .ea#plus
+                                .packsName.text-center
+                                    div Gói
+                                    .fee PLUS
+                                .packsContent.text-center
+                                    .packsPrice
+                                        div 490.000đ / 1 tháng
+                                        .duration (Thanh toán theo năm)
+                                    .packsDes
+                                        .capacity Số lượng học viên: 100-300
+                                        .data Dung lượng: 1 GB
+                                    a.button(href='#') Đăng kí ngay
+                            .ea#basic
+                                .packsName.text-center
+                                    div Gói
+                                    .fee BASIC
+                                .packsContent.text-center
+                                    .packsPrice
+                                        div 790.000đ / 1 tháng
+                                        .duration (Gia hạn theo năm)
+                                    .packsDes
+                                        .capacity Số lượng học viên: 300-500
+                                        .data Dung lượng: 2 GB
+                                    a.button(href='#') Đăng kí ngay
+                            .ea#premium
+                                .packsName.text-center
+                                    div Gói
+                                    .fee PREMIUM
+                                .packsContent.text-center
+                                    .packsPrice
+                                        div 1.100.100đ / 1 tháng
+                                        .duration (Thanh toán theo năm)
+                                    .packsDes
+                                        .capacity Số lượng học viên: 500-1000
+                                        .data Dung lượng: 5 GB
+                                    a.button(href='#') Đăng kí ngay
+
+                .note
+                    .container Lưu ý: Quý khách có thể mua thêm dung lượng upload video theo đơn giá: 200.000đ/GB data dung lượng
+        include jades/footer.jade
+        script(src='js/jquery-3.3.1.min.js')
+        script(src='js/popper.min.js')
+        script(src='js/bootstrap.min.js')
+        script(src='js/flickity.js')
+        script(src='js/index.js')
